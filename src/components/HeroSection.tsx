@@ -68,10 +68,33 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            <motion.h1
+            {/* Watch Demo Section - Moved Up */}
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
+              className="mb-12"
+            >
+              <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer p-4 max-w-sm mx-auto lg:mx-0">
+                <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl h-32 flex items-center justify-center">
+                  <motion.div
+                    className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <PlayCircle className="w-8 h-8 text-blue-600 ml-1" />
+                  </motion.div>
+                </div>
+                <div className="mt-3 text-center">
+                  <span className="text-sm font-semibold text-gray-700">Watch Demo</span>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.8 }}
               className="text-4xl lg:text-6xl font-bold text-gray-900 tracking-tight leading-tight"
             >
               <span className="block">Experience the power of</span>
@@ -80,7 +103,7 @@ const HeroSection = () => {
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.8 }}
+              transition={{ delay: 0.4, duration: 0.8 }}
               className="mt-6 text-lg lg:text-xl text-gray-500 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light"
             >
               At QA Master, we believe in the power of together. Development teams, 
@@ -90,7 +113,7 @@ const HeroSection = () => {
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4, duration: 0.8 }}
+              transition={{ delay: 0.6, duration: 0.8 }}
               className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
             >
                 <motion.button
@@ -120,35 +143,14 @@ const HeroSection = () => {
                   </motion.div>
                 </motion.button>
             </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.8 }}
-              className="mt-8"
-            >
-              <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer p-4 max-w-sm mx-auto lg:mx-0">
-                <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl h-32 flex items-center justify-center">
-                  <motion.div
-                    className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    <PlayCircle className="w-8 h-8 text-blue-600 ml-1" />
-                  </motion.div>
-                </div>
-                <div className="mt-3 text-center">
-                  <span className="text-sm font-semibold text-gray-700">Watch Demo</span>
-                </div>
-              </div>
-            </motion.div>
           </div>
           
-          {/* Right Content */}
-          <div className="space-y-6">
+          {/* Right Content - Moved boxes down */}
+          <div className="space-y-6 mt-16">
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
+              transition={{ delay: 1.0, duration: 0.8 }}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow p-6 relative overflow-hidden"
             >
               {/* Abstract gradient accents */}
@@ -175,7 +177,7 @@ const HeroSection = () => {
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 1.0, duration: 0.8 }}
+              transition={{ delay: 1.2, duration: 0.8 }}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow p-6 relative overflow-hidden"
             >
               {/* Abstract gradient accents */}
