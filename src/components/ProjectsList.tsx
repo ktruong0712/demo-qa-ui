@@ -8,7 +8,8 @@ interface Project {
   name: string;
   description: string;
   status: 'active' | 'on_hold' | 'completed' | 'draft';
-  last_test_run?: string;
+  last_test_run: string;
+  progress: number;
 }
 
 interface ProjectsListProps {
