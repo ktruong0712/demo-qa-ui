@@ -1,7 +1,7 @@
 'use client';
 
-import { motion, useAnimation } from 'framer-motion';
-import { useState, useRef, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 import { 
   Zap, 
   Bug, 
@@ -14,7 +14,6 @@ import {
   XCircle,
   Play,
   Code,
-  BarChart3
 } from 'lucide-react';
 
 // Animated demonstration components
@@ -52,7 +51,7 @@ const AutomatedTestingDemo = () => {
           transition={{ duration: 0.5 }}
         >
           <Code className="w-4 h-4 text-green-400" />
-          <span className="text-green-400 text-sm font-mono">describe('Login Flow', () =&gt; {'{'} </span>
+          <span className="text-green-400 text-sm font-mono">describe(&apos;Login Flow&apos;, () =&gt; {'{'} </span>
         </motion.div>
         <motion.div
           className="ml-4 flex items-center space-x-2"
@@ -60,7 +59,7 @@ const AutomatedTestingDemo = () => {
           animate={{ opacity: isAnimating ? 1 : 0, x: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <span className="text-blue-400 text-sm font-mono">it('should authenticate user', () =&gt; {'{'} </span>
+          <span className="text-blue-400 text-sm font-mono">it(&apos;should authenticate user&apos;, () =&gt; {'{'} </span>
         </motion.div>
         <motion.div
           className="ml-8 flex items-center space-x-2"

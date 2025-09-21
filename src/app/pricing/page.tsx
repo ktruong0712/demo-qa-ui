@@ -63,7 +63,7 @@ export default function PricingPage() {
           >
             <h1 className="text-4xl font-bold text-text-dark mb-6">Simple, Transparent Pricing</h1>
             <p className="text-lg text-text-medium max-w-2xl mx-auto">
-              Choose the plan that fits your team's needs. All plans include our core QA services.
+              Choose the plan that fits your team&apos;s needs. All plans include our core QA services.
             </p>
           </motion.div>
 

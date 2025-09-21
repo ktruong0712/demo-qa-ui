@@ -368,7 +368,7 @@ const CoreQAPromises = () => {
               Ready to experience all five promises?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Join thousands of teams who've transformed their QA process with our comprehensive platform.
+              Join thousands of teams who&apos;ve transformed their QA process with our comprehensive platform.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}

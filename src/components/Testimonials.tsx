@@ -126,7 +126,7 @@ const Testimonials = () => {
             What our customers are saying
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We're helping thousands of teams build higher-quality software, faster.
+            We&apos;re helping thousands of teams build higher-quality software, faster.
           </p>
         </motion.div>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -147,7 +147,7 @@ const Testimonials = () => {
               }}
               className="p-8 bg-white shadow-lg rounded-2xl hover:shadow-2xl transition-shadow"
             >
-              <p className="text-gray-700 italic mb-4">"{testimonial.quote}"</p>
+              <p className="text-gray-700 italic mb-4">&ldquo;{testimonial.quote}&rdquo;</p>
               
               {/* Stats badge */}
               <div className="mb-4">

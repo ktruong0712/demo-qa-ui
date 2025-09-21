@@ -127,7 +127,7 @@ const TrustedBy = () => {
           viewport={{ once: true }}
           className="text-center text-lg font-semibold leading-8 text-gray-900"
         >
-          Trusted by the world's most innovative teams
+          Trusted by the world&apos;s most innovative teams
         </motion.h2>
         <div className="mt-10 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           {logos.map((logo, index) => (
