@@ -119,8 +119,8 @@ const HeroSection = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="text-5xl lg:text-7xl font-light text-white leading-tight mb-8"
             >
-              <span className="block">Experience the</span>
-              <span className="block">power of </span>
+              <span className="block font-bold">Experience the</span>
+              <span className="block font-bold">power of </span>
               <span className="block italic font-serif">Quality Assurance</span>
             </motion.h1>
 
