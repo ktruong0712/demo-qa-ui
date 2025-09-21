@@ -6,6 +6,15 @@ import EmptyState from './EmptyState';
 import CreateProjectModal from './CreateProjectModal';
 import ProjectsList from './ProjectsList';
 
+interface Project {
+  id: string;
+  name: string;
+  description: string;
+  status: 'active' | 'on_hold' | 'completed' | 'draft';
+  last_test_run: string;
+  progress: number;
+}
+
 const Dashboard = () => {
   const [projects, setProjects] = useState([
     { 
@@ -56,7 +65,7 @@ const Dashboard = () => {
     setShowCreateModal(true);
   };
 
-  const handleSelectProject = (project: typeof projects[0]) => {
+  const handleSelectProject = (project: Project) => {
     setSelectedProject(project);
   };
 
