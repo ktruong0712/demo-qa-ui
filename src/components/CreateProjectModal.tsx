@@ -67,7 +67,7 @@ export default function CreateProjectModal({ isOpen, onClose, onCreateProject }:
   const [formData, setFormData] = useState({
     name: "",
     description: "", 
-    services: []
+    services: [] as string[]
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
