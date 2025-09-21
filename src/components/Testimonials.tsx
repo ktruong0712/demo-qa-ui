@@ -121,7 +121,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="text-base font-semibold leading-7 text-teal-600">Testimonials</h2>
+          <h2 className="text-base font-semibold leading-7 text-sky-600">Testimonials</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             What our customers are saying
           </p>
@@ -151,7 +151,7 @@ const Testimonials = () => {
               
               {/* Stats badge */}
               <div className="mb-4">
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-teal-100 text-teal-800">
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-sky-100 text-sky-800">
                   {testimonial.stats}
                 </span>
               </div>
@@ -178,11 +178,11 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <div className="bg-gradient-to-r from-teal-500 to-cyan-500 rounded-2xl p-8 text-white">
+          <div className="bg-gradient-to-r from-sky-400 to-cyan-400 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
               Join thousands of teams already using QA Master
             </h3>
-            <p className="text-teal-100 mb-6 max-w-2xl mx-auto">
+            <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
               Start your free trial today and experience the power of automated testing, 
               real-time collaboration, and comprehensive quality insights.
             </p>
@@ -190,14 +190,14 @@ const Testimonials = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-teal-600 px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-white text-sky-600 px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 Start Free Trial
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-teal-600 transition-all duration-300"
+                className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-sky-600 transition-all duration-300"
               >
                 Schedule Demo
               </motion.button>

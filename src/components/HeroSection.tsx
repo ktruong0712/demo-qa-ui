@@ -5,7 +5,7 @@ import { PlayCircle, ArrowRight, ChevronDown, Bug } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-gradient-to-tr from-blue-300 via-sky-300 to-teal-200 overflow-hidden min-h-screen">
+    <div className="relative bg-gradient-to-tr from-sky-200 via-blue-100 to-cyan-100 overflow-hidden min-h-screen">
 
       {/* Background pattern overlay - matching the Anthology design */}
       <div className="absolute inset-0 opacity-35">
@@ -101,7 +101,7 @@ const HeroSection = () => {
               transition={{ duration: 0.6 }}
               className="mb-12"
             >
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 max-w-xs hover:bg-white/30 transition-colors cursor-pointer">
+              <div className="bg-white/30 backdrop-blur-sm rounded-lg p-4 max-w-xs hover:bg-white/40 transition-colors cursor-pointer">
                 <div className="flex items-center space-x-3">
                   <div className="relative w-16 h-12 bg-gray-800 rounded-md overflow-hidden">
                     <div className="absolute inset-0 flex items-center justify-center">
@@ -145,14 +145,14 @@ const HeroSection = () => {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 rounded-full font-semibold transition-colors"
+                className="bg-white hover:bg-gray-100 text-sky-600 px-8 py-3 rounded-full font-semibold transition-colors"
               >
                 Sign up
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-sky-600 px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2"
               >
                 <span>Get to know us</span>
                 <ArrowRight className="w-4 h-4" />
@@ -182,13 +182,13 @@ const HeroSection = () => {
               <div className="relative z-10">
                 <div className="flex items-center justify-between mb-4">
                   <div className="text-xl font-bold text-gray-900">QA Master</div>
-                  <div className="w-6 h-6 text-teal-500">^</div>
+                  <div className="w-6 h-6 text-sky-500">^</div>
                 </div>
                 <h3 className="font-bold text-xl text-gray-900 mb-3">AI Test Generation</h3>
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                   Included in QA Master to help you efficiently create testing suites.
                 </p>
-                <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 text-sm flex items-center gap-1 group">
+                <a href="#" className="font-semibold text-gray-900 hover:text-sky-600 text-sm flex items-center gap-1 group">
                   Learn more 
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform"/>
                 </a>
@@ -213,7 +213,7 @@ const HeroSection = () => {
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                   Our award-winning accessibility solution creates more inclusive bug reports
                 </p>
-                <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 text-sm flex items-center gap-1 group">
+                <a href="#" className="font-semibold text-gray-900 hover:text-sky-600 text-sm flex items-center gap-1 group">
                   Learn more 
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform"/>
                 </a>

@@ -94,7 +94,7 @@ const HowItWorks = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h2 className="text-base font-semibold leading-7 text-teal-600">How It Works</h2>
+          <h2 className="text-base font-semibold leading-7 text-sky-600">How It Works</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             A better workflow for quality assurance.
           </p>
@@ -125,14 +125,14 @@ const HowItWorks = () => {
                 whileHover={{ rotate: 360 }}
                 transition={{ duration: 0.6 }}
               >
-                <step.icon className="w-8 h-8 text-teal-600" />
+                <step.icon className="w-8 h-8 text-sky-600" />
               </motion.div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">{step.title}</h3>
               <p className="text-sm text-gray-600 leading-relaxed">{step.description}</p>
               
               {/* Step number indicator */}
               <motion.div
-                className="mt-4 w-8 h-8 bg-teal-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto"
+                className="mt-4 w-8 h-8 bg-sky-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto"
                 initial={{ scale: 0 }}
                 animate={isInView ? { scale: 1 } : { scale: 0 }}
                 transition={{ 
