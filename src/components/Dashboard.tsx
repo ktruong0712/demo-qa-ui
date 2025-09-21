@@ -43,7 +43,7 @@ const Dashboard = () => {
     },
   ]);
   
-  const [selectedProject, setSelectedProject] = useState(projects[0]);
+  const [selectedProject, setSelectedProject] = useState<Project>(projects[0]);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [isLoading] = useState(false);
 
