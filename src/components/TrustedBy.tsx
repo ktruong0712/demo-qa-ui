@@ -65,7 +65,7 @@ const logos = [
 
 const TrustedBy = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-50 via-cyan-50 to-teal-50 py-12 sm:py-16 relative overflow-hidden">
+    <div className="bg-gradient-to-r from-gray-50 via-gray-100 to-gray-200 py-12 sm:py-16 relative overflow-hidden">
       {/* Floating background elements */}
       <motion.div
         className="absolute top-16 left-16 w-12 h-12 bg-blue-100 rounded-full opacity-25"

@@ -36,10 +36,11 @@ const Navigation = () => {
             className="flex items-center space-x-2"
             whileHover={{ scale: 1.02 }}
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-teal-400 rounded-lg flex items-center justify-center shadow-sm">
-              <span className="text-white font-medium text-sm">✓</span>
+            <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center shadow-sm">
+              <div className="w-3 h-3 bg-white rounded-full"></div>
             </div>
             <span className="text-xl font-semibold text-gray-800">QA Master</span>
+            <div className="w-4 h-4 text-teal-500">★</div>
           </motion.div>
 
           {/* Navigation Links */}
@@ -78,7 +79,7 @@ const Navigation = () => {
             transition={{ delay: 0.4, duration: 0.5 }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="bg-teal-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-teal-600 transition-all duration-300 shadow-sm hover:shadow-md"
+            className="bg-teal-400 hover:bg-teal-500 text-white px-6 py-2 rounded-full font-medium transition-colors"
           >
             Contact us
           </motion.button>

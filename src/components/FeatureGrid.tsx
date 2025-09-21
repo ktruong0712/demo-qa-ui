@@ -399,7 +399,7 @@ const services = [
 
 const FeatureGrid = () => {
   return (
-    <section className="py-20 px-6 lg:px-8 bg-gradient-to-r from-blue-50 via-cyan-50 to-teal-50 relative overflow-hidden">
+    <section className="py-20 px-6 lg:px-8 bg-gradient-to-r from-gray-50 via-gray-100 to-gray-200 relative overflow-hidden">
       {/* Floating background elements */}
       <motion.div
         className="absolute top-24 left-24 w-18 h-18 bg-blue-100 rounded-full opacity-25"
@@ -474,7 +474,7 @@ const FeatureGrid = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-base font-semibold leading-7 text-blue-600">Our Services</h2>
+          <h2 className="text-base font-semibold leading-7 text-teal-600">Our Services</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Everything You Need for Quality Assurance
           </p>
@@ -513,7 +513,7 @@ const FeatureGrid = () => {
                 <service.demo />
               </div>
               
-              <div className="flex items-center text-sm font-semibold text-blue-600 group-hover:text-blue-700 transition-colors">
+              <div className="flex items-center text-sm font-semibold text-teal-600 group-hover:text-teal-700 transition-colors">
                 Learn More
                 <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
               </div>

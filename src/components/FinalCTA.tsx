@@ -92,14 +92,14 @@ const FinalCTA = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 text-base font-semibold bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all"
+            className="px-8 py-4 text-base font-semibold bg-teal-500 hover:bg-teal-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all"
           >
             Get started
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-base font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors flex items-center gap-2"
+            className="text-base font-semibold leading-6 text-gray-900 hover:text-teal-600 transition-colors flex items-center gap-2"
           >
             Learn more <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </motion.button>
