@@ -38,10 +38,12 @@ const Dashboard = () => {
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [isLoading] = useState(false);
 
-  const handleCreateProject = async (projectData: { name: string; description: string; services: string[] }) => {
+  const handleCreateProject = async (projectData: { name: string; description: string; services: string[]; status: string; progress: number; tests_passed: number; tests_total: number; bugs_found: number; bugs_resolved: number }) => {
     const newProject = {
-      ...projectData,
       id: Date.now().toString(),
+      name: projectData.name,
+      description: projectData.description,
+      status: "active" as const,
       progress: 0,
       last_test_run: new Date().toISOString()
     };
