@@ -15,7 +15,7 @@ import {
 interface CreateProjectModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onCreateProject: (project: { name: string; description: string; services: string[] }) => void;
+  onCreateProject: (project: { name: string; description: string; services: string[]; status: string; progress: number; tests_passed: number; tests_total: number }) => void;
 }
 
 const serviceOptions = [
