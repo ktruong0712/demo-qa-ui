@@ -181,10 +181,5 @@ This project is licensed under the MIT License.
 3. Make your changes
 4. Submit a pull request
 
-## 📞 Support
-
-For support or questions, please contact the development team or create an issue in the repository.
 
 ---
-
-Built with ❤️ using Next.js, Tailwind CSS, and Framer Motion
