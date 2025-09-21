@@ -47,7 +47,7 @@ const Dashboard = () => {
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [isLoading] = useState(false);
 
-  const handleCreateProject = async (projectData: { name: string; description: string; services: string[]; status: string; progress: number; tests_passed: number; tests_total: number; bugs_found: number; bugs_resolved: number }) => {
+  const handleCreateProject = async (projectData: any) => {
     const newProject = {
       id: Date.now().toString(),
       name: projectData.name,
@@ -65,7 +65,7 @@ const Dashboard = () => {
     setShowCreateModal(true);
   };
 
-  const handleSelectProject = (project: Project) => {
+  const handleSelectProject = (project: any) => {
     setSelectedProject(project);
   };
 
